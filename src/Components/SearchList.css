@@ -1,0 +1,38 @@
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    overflow-y: visible;
+    
+}
+ 
+.dataListing{
+    overflow-y: auto;  
+    border: 3px solid grey; 
+    width: 250px;
+    min-height:270x;
+    margin-bottom: 15px;
+    height:270px;
+    overflow-x: visible;
+    overflow-y: visible ;
+}
+
+.images{
+    width: 100%;
+    height:130px;
+    margin-top: -10px;
+}
+
+.links{
+    text-align: center;
+    color: black;
+    align-items: center;
+    bottom: 5px;
+}
+.artistNames{
+    text-transform: capitalize;
+} 
+.artistNames, .collectionName, .kinds{
+    text-align: center;
+} 
